@@ -150,21 +150,21 @@ function headerRow() {
   const navItem2 = document.createElement("li");
   navItem2.setAttribute("class", "nav-item");
   const navLink2 = document.createElement("a");
-  navLink2.setAttribute("class", "nav-link link-secondary");
+  navLink2.setAttribute("class", "nav-link disabled link-secondary");
   navLink2.href = "#";
 
   // create single item 3
   const navItem3 = document.createElement("li");
   navItem3.setAttribute("class", "nav-item");
   const navLink3 = document.createElement("a");
-  navLink3.setAttribute("class", "nav-link");
+  navLink3.setAttribute("class", "nav-link disabled");
   navLink3.href = "#";
 
   // create single item 4
   const navItem4 = document.createElement("li");
   navItem4.setAttribute("class", "nav-item");
   const navLink4 = document.createElement("a");
-  navLink4.setAttribute("class", "nav-link");
+  navLink4.setAttribute("class", "nav-link disabled");
   navLink4.href = "#";
 
   navLink1.innerText = "Home";
