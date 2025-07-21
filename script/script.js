@@ -9,7 +9,7 @@ const addUtilityScript = () => {
 };
 // addUtilityScript();
 
-// customize site tabs
+// customize site tabs, supported mostly on chrome
 const changeTabColor = () => {
   // create meta element
   const themeMeta = document.createElement("meta");
@@ -74,7 +74,7 @@ function fluidContainer(element) {
 // create bootstrap row
 function bootstrapRow() {
   const bootstrapRow = document.createElement("section");
-  bootstrapRow.setAttribute("class", "row");
+  bootstrapRow.setAttribute("class", "row align-items-center");
 
   return bootstrapRow;
 }
